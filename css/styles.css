@@ -1,0 +1,52 @@
+body{
+background-image: url(https://w.forfun.com/fetch/9f/9f12194792f895bbdde92c1f4051a03b.jpeg);
+background-size: cover;
+}
+
+h1{
+  color: rgb(56, 38, 15);
+}
+
+.cuerpoRegistro{
+width:25vw;
+margin: 5% 35%;
+padding: 2vw;
+margin-right: 35%;
+/*border-top: 2% gainsboro;*/
+border-radius: 15px;
+box-shadow: 5px 5px 5px 5px ;
+text-align: center;
+}
+
+.input-box{
+    width: 100%;
+    height: 60px;
+}
+
+.formulario{
+    resize: none;
+    width: 100%;
+    border: 1px solid gray;
+   border-radius: 10px;
+   background-color: rgba(201, 207, 195, 0.5);
+   color: rgb(38, 10, 10);
+}
+
+:placeholder-shown{
+  text-align: center;
+}
+
+button {
+  background-color:rgb(114, 89, 89);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: rgb(38, 10, 10);
+  font-size: 16px;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
